@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    ["component", { "libraryName": "element-ui", "stye": true }]
+  ],
+  "presets": [["@babel/preset-env", { "targets": "> 1% in CN, last 2 versions, not dead" }]]
+}
